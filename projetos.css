@@ -1,0 +1,54 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #0D1117;
+    color: #E6EDF3;
+}
+header{
+    background-color: #161B22;
+    border-radius: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+li{
+    list-style-type: none;
+}
+header li a.paginaAtual{
+    color: #6E7681;
+}
+header li a.paginaAtual:hover{
+    color: #8c96a4;
+}
+header li a{
+    text-decoration: none;
+    color: #E6EDF3;
+}
+header li a:hover {
+    transition: .2s;
+    color: #1F6FEB;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 42vh;
+    margin-right: 40px; /* para alinhar com o centro do header */
+}
+footer li a{
+    text-decoration: none;
+    color: #E6EDF3;
+}
+footer li a:hover{
+    transition: .2s;
+    color: #1F6FEB;
+}
+footer p.warning{
+    text-align: right;
+    color: #161B22;
+}
+.center{
+    margin-top: 200px;
+    text-align: center;
+}

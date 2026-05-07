@@ -1,0 +1,79 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-color: #0D1117;
+    color: #E6EDF3;
+}
+header{
+    background-color: #161B22;
+    border-radius: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+header li a.paginaAtual{
+    color: #6E7681;
+}
+header li a.paginaAtual:hover{
+    color: #8c96a4;
+}
+header li a{
+    text-decoration: none;
+    color: #E6EDF3;
+}
+header li a:hover {
+    transition: .2s;
+    color: #1F6FEB;
+}
+img.profilePicture{
+    border-radius: 100%;
+    border: 7px solid #21262D;
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+li{
+    list-style-type: none;
+}
+.center{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+.bio{
+    background-color: #161B22;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: justify;
+}
+p{
+    width: 90%;
+    margin: 0 auto;
+}
+ul.formacao{
+    background-color: #161B22;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 10px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px; /* para alinhar com o centro do header */
+}
+footer li a{
+    text-decoration: none;
+    color: #E6EDF3;
+}
+footer li a:hover{
+    transition: .2s;
+    color: #1F6FEB;
+}
+footer p.warning{
+    text-align: right;
+    color: #161B22;
+}
