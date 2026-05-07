@@ -60,6 +60,15 @@ ul.formacao{
     margin: 30px;
     border-radius: 10px;
 }
+li.terminado{
+    list-style-position: inside;
+    list-style-type: disc;
+}
+li.progresso{
+    list-style-position: inside;
+    list-style-type: circle;
+    margin: 0;
+}
 footer ul{
     display: flex;
     justify-content: center;
