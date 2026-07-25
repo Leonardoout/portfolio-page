@@ -1,10 +1,10 @@
 body{
     font-family: sans-serif;
-    background-color: #0D1117;
+    background-image: url(./Sources/susan-lu4esm-star-4773.gif);
     color: #E6EDF3;
 }
 header{
-    background-color: #161B22;
+    background-color: #161b227e;
     border-radius: 10px;
 }
 header ul{
@@ -46,7 +46,7 @@ footer li a:hover{
 }
 footer p.warning{
     text-align: right;
-    color: #161B22;
+    color: #161b227e;
 }
 .center{
     margin-top: 200px;
